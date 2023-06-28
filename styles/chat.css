@@ -1,0 +1,40 @@
+html {
+  font-size: 20px; /* px means "pixels": the base font size is now 10 pixels high  */
+  /*font-family: 'Krona One', sans-serif; */
+  /*background-color: rgb(255, 255, 128);*/
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.chatbox {
+  width: 80%;
+  font-size: 25px;
+  margin: auto;
+  height: 600px;
+  text-align: center;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 5px #444;
+  padding: 8px 12px;
+  overflow-y:auto;
+}
+
+.messageform {
+  margin: auto;
+}
+
+.timestamp {
+  font-size: 14px;
+}
+
+.myusername {
+  color: blue;
+  font-weight: bolder;
+}
+
+.otherusernames {
+  color: red;
+  font-weight: bolder;
+}
